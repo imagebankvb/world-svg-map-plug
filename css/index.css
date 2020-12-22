@@ -1,0 +1,62 @@
+.image-container{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    padding: 100px;
+}
+
+.pin {
+    position: absolute;
+    width: 50px;
+    left: 280px;
+    top: 270px;
+}
+.pin2 {
+    position: absolute;
+    width: 50px;
+    left: 270px;
+    top: 300px;
+}
+
+.world {
+    width: auto;
+}
+
+
+.hiddenText {
+    display: none;
+ }
+ .hoverDiv:hover + .hiddenText {
+    display: block;
+    position: absolute;
+    top: 400px;
+    left: 900px;
+    width: 500px;
+    background: black;
+    color: rgb(71, 0, 65);
+    font-size: 80px;
+    z-index: 99;
+ }
+ 
+.hiddenText2 {
+display: none;
+}
+.hoverDiv2:hover + .hiddenText2 {
+display: block;
+position: absolute;
+top: 400px;
+    left: 900px;
+    width: 500px;
+    background: black;
+color: rgb(71, 0, 65);
+font-size: 80px;
+z-index: 99;
+}
+
+.hover-container{
+    background: red;
+    position: relative;
+    width: 1200px;
+}
+
+
