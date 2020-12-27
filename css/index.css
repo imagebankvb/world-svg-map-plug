@@ -1,4 +1,27 @@
 
+body{
+   overflow-x: hidden;
+}
+
+
+.image-container ::-webkit-scrollbar {
+   width: 10px;
+ }
+ 
+ /* Track */
+ .image-container ::-webkit-scrollbar-track {
+   background: #f1f1f1; 
+ }
+  
+ /* Handle */
+ .image-container ::-webkit-scrollbar-thumb {
+   background: #D1BBFD;; 
+ }
+ 
+ /* Handle on hover */
+ .image-container ::-webkit-scrollbar-thumb:hover {
+   background: #D1BBFD;; 
+ }
 
 .image-container{
     height: 100vh;
@@ -21,7 +44,7 @@
 
 .pin {
    position: relative;
-   width: 40px;
+   width: 35px;
    z-index: 1;
 }
 
@@ -32,8 +55,12 @@
 
 .image-container h2{
    font-size: 30px;
+   color: #D1BBFD;
 }
 
+
+
+ /* Wisconsin */
 .image-container .wisconsin{
    position: absolute;
    width: auto;
@@ -43,8 +70,6 @@
    z-index: 3;
  }
 
-
-    
  .image-container .wisconsin .hiddenText {
     display: none;
  }
@@ -65,6 +90,8 @@
 
  }
 
+
+ /* Vancouver */
  .image-container  .vancouver{
    position: absolute;
     width: auto;
@@ -75,7 +102,6 @@
 
  }
 
-    
  .image-container .vancouver .hiddenText {
     display: none;
  }
@@ -95,6 +121,226 @@
 
  }
 
+  /*California ( zip 90013) */
+  
+.image-container .california{
+   position: absolute;
+   width: auto;
+   left: 177px;
+   top: 290px;
+   transition: .3s cubic-bezier(.3, 0, 0, 1.3);
+   z-index: 3;
+ }
+
+  .image-container .california .hiddenText {
+   display: none;
+}
+
+.image-container .california:hover{
+  background-color: rgb(243, 243, 243);
+   position: absolute;
+   width: 300px;
+
+   padding: 20px;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+   border-radius: 15px;
+   z-index: 4;
+}
+
+.image-container .california:hover .hiddenText {
+   display: block;
+
+}
+
+ /* Chicago */
+ .image-container .chicago{
+   position: absolute;
+   width: auto;
+   left: 294px;
+   top: 270px;
+   transition: .3s cubic-bezier(.3, 0, 0, 1.3);
+   z-index: 3;
+ }
+
+ .image-container .chicago .hiddenText {
+    display: none;
+ }
+
+ .image-container .chicago:hover{
+   background-color: rgb(243, 243, 243);
+    position: absolute;
+    width: 300px;
+
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 15px;
+    z-index: 4;
+}
+
+ .image-container .chicago:hover .hiddenText {
+    display: block;
+
+ }
+
+
+  /* Massachusetts */
+  .image-container .massachusetts{
+   position: absolute;
+   width: auto;
+   left: 342px;
+   top: 275px;;
+   transition: .3s cubic-bezier(.3, 0, 0, 1.3);
+   z-index: 3;
+ }
+
+ .image-container .massachusetts .hiddenText {
+    display: none;
+ }
+
+ .image-container .massachusetts:hover{
+   background-color: rgb(243, 243, 243);
+    position: absolute;
+    width: 300px;
+
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 15px;
+    z-index: 4;
+}
+
+ .image-container .massachusetts:hover .hiddenText {
+    display: block;
+
+ }
+
+   /* Cleveland */
+   .image-container .cleveland{
+      position: absolute;
+      width: auto;
+      left: 308px;
+      top: 272px;
+      transition: .3s cubic-bezier(.3, 0, 0, 1.3);
+      z-index: 3;
+    }
+   
+    .image-container .cleveland .hiddenText {
+       display: none;
+    }
+   
+    .image-container .cleveland:hover{
+      background-color: rgb(243, 243, 243);
+       position: absolute;
+       width: 300px;
+   
+       padding: 20px;
+       box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+       border-radius: 15px;
+       z-index: 4;
+   }
+   
+    .image-container .cleveland:hover .hiddenText {
+       display: block;
+   
+    }
+
+
+      /* newyork */
+   .image-container .newyork{
+      position: absolute;
+      width: auto;
+      left: 330px;
+      top: 280px;
+      transition: .3s cubic-bezier(.3, 0, 0, 1.3);
+      z-index: 3;
+    }
+   
+    .image-container .newyork .hiddenText {
+       display: none;
+    }
+   
+    .image-container .newyork:hover{
+      background-color: rgb(243, 243, 243);
+       position: absolute;
+       width: 300px;
+   
+       padding: 20px;
+       box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+       border-radius: 15px;
+       z-index: 4;
+   }
+   
+    .image-container .newyork:hover .hiddenText {
+       display: block;
+   
+    }
+
+      /* portland */
+   .image-container .portland{
+      position: absolute;
+      width: auto;
+      left: 185px;
+      top: 248px;
+      transition: .3s cubic-bezier(.3, 0, 0, 1.3);
+      z-index: 3;
+    }
+   
+    .image-container .portland .hiddenText {
+       display: none;
+    }
+   
+    .image-container .portland:hover{
+      background-color: rgb(243, 243, 243);
+       position: absolute;
+       width: 300px;
+   
+       padding: 20px;
+       box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+       border-radius: 15px;
+       z-index: 4;
+   }
+   
+    .image-container .portland:hover .hiddenText {
+       display: block;
+   
+    }
+
+      /* seattle */
+   .image-container .seattle{
+      position: absolute;
+      width: auto;
+      left: 190px;
+      top: 238px;
+      transition: .3s cubic-bezier(.3, 0, 0, 1.3);
+      z-index: 3;
+    }
+   
+    .image-container .seattle .hiddenText {
+       display: none;
+    }
+   
+    .image-container .seattle:hover{
+      background-color: rgb(243, 243, 243);
+       position: absolute;
+       width: 300px;
+   
+       padding: 20px;
+       box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+       border-radius: 15px;
+       z-index: 4;
+   }
+   
+    .image-container .seattle:hover .hiddenText {
+       display: block;
+   
+    }
+
+
+
+
+
+
+
+
 
  .li-div {
    background-color: #ebebeb;
@@ -109,7 +355,7 @@
 
 .image-container h3 {
    display: inline;
-   color: rgb(0, 162, 255);
+   color: #a375ff;
    font-size: 14px;
    margin-left: 20px;
 }
@@ -124,3 +370,149 @@ a {
 }
 
 
+@media (max-width:992px) {
+   .image-container {
+      height: 100vh;
+      width: 1200px;
+      padding: 0;
+      position: absolute;
+      overflow-x: hidden;
+      left: -100px;
+  }
+
+   /* Wisconsin */
+
+
+ .image-container .wisconsin:hover{
+   background-color: rgb(243, 243, 243);
+    position: absolute;
+    width: 300px;
+    left: 141px;
+    top: 160px;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 15px;
+    z-index: 4;
+}
+
+
+
+
+ /* Vancouver */
+
+ .image-container .vancouver:hover{
+   background-color: rgb(243, 243, 243);
+    position: absolute;
+    width: 300px;
+    left: 141px;
+    top: 160px;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 15px;
+    z-index: 4;
+}
+
+
+  /*California ( zip 90013) */
+
+
+.image-container .california:hover{
+  background-color: rgb(243, 243, 243);
+   position: absolute;
+   width: 300px;
+       left: 141px;
+    top: 160px;   
+   padding: 20px;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+   border-radius: 15px;
+   z-index: 4;
+}
+
+ /* Chicago */
+
+.image-container .chicago:hover{
+   background-color: rgb(243, 243, 243);
+   position: absolute;
+   width: 300px;
+       left: 141px;
+    top: 160px;
+   padding: 20px;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+   border-radius: 15px;
+   z-index: 4;
+}
+
+
+/* Massachusetts */
+
+
+.image-container .massachusetts:hover{
+   background-color: rgb(243, 243, 243);
+   position: absolute;
+   width: 300px;
+       left: 141px;
+    top: 160px;
+   padding: 20px;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+   border-radius: 15px;
+   z-index: 4;
+}
+
+/* Cleveland */
+
+.image-container .cleveland:hover{
+   background-color: rgb(243, 243, 243);
+   position: absolute;
+   width: 300px;
+       left: 141px;
+    top: 160px;
+   padding: 20px;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+   border-radius: 15px;
+   z-index: 4;
+}
+
+/* newyork */
+.image-container .newyork:hover{
+   background-color: rgb(243, 243, 243);
+   position: absolute;
+   width: 300px;
+       left: 141px;
+    top: 160px;
+   padding: 20px;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+   border-radius: 15px;
+   z-index: 4;
+}
+
+
+      /* portland */
+
+.image-container .portland:hover{
+   background-color: rgb(243, 243, 243);
+   position: absolute;
+   width: 300px;
+       left: 141px;
+    top: 160px;
+   padding: 20px;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+   border-radius: 15px;
+   z-index: 4;
+}
+
+
+      /* seattle */
+
+.image-container .seattle:hover{
+   background-color: rgb(243, 243, 243);
+   position: absolute;
+   width: 300px;
+       left: 141px;
+    top: 160px;
+   padding: 20px;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+   border-radius: 15px;
+   z-index: 4;
+}
+
+}
